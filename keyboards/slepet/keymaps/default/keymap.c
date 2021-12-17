@@ -170,7 +170,7 @@ combo_t key_combos[COMBO_COUNT] = {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-[_BASE] = LAYOUT(ppppnnnnnnnnn......
+[_BASE] = LAYOUT(
     KC_ESC ,KC_Q,   KC_P,   KC_Y,   KC_C,   KC_B,       KC_V,   KC_M,   KC_U,   KC_Z,   KC_L,   KC_BSLS,
     KC_TAB, SH_A,   CT_N,   AL_I,   KC_S,   GU_F,       GU_D,   KC_T,   AL_H,   CT_O,   SH_R,   KC_ENT,
     KC_ENT, KC_COMM,KC_DOT, KC_J,   KC_G,   KC_QUOT,    KC_SCLN,KC_W,   KC_K,   KC_MINS,KC_X,   KC_SLSH,
