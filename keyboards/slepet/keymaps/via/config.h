@@ -1,5 +1,5 @@
 /*
-Copyright 2021 Ibnu D. Aji (iaji@siskam.link)
+Copyright 2021 Michael Gunawan
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,10 +17,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// Pick good defaults for enabling homerow modifiers
-#define TAPPING_TERM 200
-#define IGNORE_MOD_TAP_INTERRUPT
-#define COMBO_TERM  50
-#define COMBO_COUNT 38
-#define IGNORE_MOD_TAP_INTERRUPT
-#define PERMISSIVE_HOLD
